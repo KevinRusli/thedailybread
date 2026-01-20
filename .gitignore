@@ -1,0 +1,43 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+release
+*.exe
+*.msi
+
+# Environment variables (sensitive!)
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build artifacts
+build_error.log
+downloads/*
+!downloads/README.md
+
+# Production builds (too large for git)
+production-build/node_modules
+production-build-mac/node_modules
+production-build/.env.local
+production-build-mac/.env.local
